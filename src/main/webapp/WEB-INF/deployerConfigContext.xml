@@ -37,7 +37,7 @@
     <bean id="SearchModeSearchDatabaseAuthenticationHandler"
         class="org.jasig.cas.adaptors.jdbc.DatabaseAuthenticationHandler"
         p:passwordEncoder-ref="passwordEncoder" 
-        p:tableUsers="iw_users"
+        p:tableUsers="tbl_users"
         p:fieldLocked="locked" 
         p:fieldUser="username" 
         p:fieldPassword="password" />
